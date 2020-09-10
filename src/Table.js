@@ -79,8 +79,11 @@ function TableView(props) {
 						})}
 
 						<TableRow>
+							<TableCell rowSpan={2} />
+							<TableCell colSpan={1} align="right" >Total Customer</TableCell>
+							<TableCell >{rows.length}</TableCell>
 							<TableCell rowSpan={4} />
-							<TableCell colSpan={7} align="right" >Total amount</TableCell>
+							<TableCell colSpan={4} align="right" >Total amount</TableCell>
 							<TableCell >{ccyFormat(totalAmount(rows))}</TableCell>
 						</TableRow>
 					</TableBody>

@@ -104,8 +104,8 @@ function App() {
 				}
 			})
 		}
-		console.log(fileData);
-		console.log(formattedData)
+		// console.log(fileData);
+		// console.log(formattedData)
 		return formattedData;
 	}
 
