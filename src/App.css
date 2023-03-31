@@ -2,49 +2,64 @@
   text-align: center;
 }
 
-.tableContainer{
-	width: 95%;
-	margin-top: 15px;
+.tableContainer {
+  width: 95%;
+  margin-top: 15px;
+  max-height: 450px;
+  overflow: auto;
 }
 
-.tableColumn{
-	white-space: nowrap;
+.tableColumn {
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 200px;
 }
 
-.fileContainer{
-	width: 80%;
+.fileContainer {
+  width: 80%;
 }
 
-.fileUploadContainer{
-	min-height: 10px;
-	border: 2px dashed;
-	border-color: #2f82e0;
+.fileUploadContainer {
+  min-height: 10px;
+  border: 2px dashed;
+  border-color: #2f82e0;
 }
 
-.fileUploadText{
-	margin: 0px auto;
-    padding: 60px 0px;
-    /* border: 1px solid #f1f1f1; */
-    cursor: pointer;
-    background-color: #f8f8f8;
+.fileUploadText {
+  margin: 0px auto;
+  padding: 60px 0px;
+  /* border: 1px solid #f1f1f1; */
+  cursor: pointer;
+  background-color: #f8f8f8;
 }
 
-.browseSpan{
-	font-weight: 700;
-    display: block;
-    margin-bottom: 5px;
-    font-size: 20px;
+.browseSpan {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
 
-.browseSubTxt{
-	font-size: 14px;
-    color: #888;
+.browseSubTxt {
+  font-size: 14px;
+  color: #888;
 }
 
+.table-summery-header {
+  display: flex;
+  width: 100%;
+}
+.table-summery-header-left {
+  display: flex;
+  width: 50%;
+}
+.table-summery-header-right {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
 .footer {
-	background-color: #f3e5f5;
-	padding: 20px;
-  }
+  background-color: #f3e5f5;
+  padding: 20px;
+}
